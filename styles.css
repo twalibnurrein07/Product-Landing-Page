@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(0, 0%, 80%);
+}
+ul{
+    list-style: none;
+}
+footer{
+    text-align: end;
+}
+#header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+#header-img{
+    width:448px;
+    height: 50.5px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    text-align: center;
+    padding-bottom: 30px;
+}
+h1{
+    margin: 15px 395px;
+}
+#form{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+}
+button{
+    margin:10px 50px;
+}
+#features{
+    display: grid;
+    /* justify-items: center; */
+    text-align: justify;
+}
+#materials,#shipping,#assurance{
+    display: flex;
+    margin: 20px 240px;
+}
+#shipping{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#assurance{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon{
+    width:100px;
+    height: 100px;
+}
+#how-it-works{
+    display: grid;
+    justify-items: center;
+}
+#pricing{
+    display: flex;
+    justify-content: space-around;
+}
+#pricing div{
+    width:300px;
+    height: auto;
+    text-align: center;
+}
